@@ -143,7 +143,7 @@
 .left-title{
    font-size: 38px; 
 }
-.left-description, .right-description{
+.left-description, .right-description, .description{
     font-size: 16px;
     color: rgba(7, 2, 17, 0.60);
 }
@@ -155,3 +155,29 @@
 .coming-soon-center img{
     padding: 40px 40px;
 }
+/* holiday sale style */
+.holiday-sale-text{
+  text-align: center;
+  margin-top: 140px;
+}
+.holiday-sale-text .greetings{
+    font-size: 18px;
+
+  }
+  .holiday-sale-text .title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+
+  }
+  .title-span{
+    color: #FF0000;
+  }
+ .img-div{
+  background-image: url("/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+ }
+ .img-1{
+  
+ }
