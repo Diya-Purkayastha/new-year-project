@@ -1,4 +1,5 @@
 
+
 /* font */
 
 .merriweather-regular {
@@ -32,7 +33,7 @@
     margin: 0 auto;
   }
   main section{
-    margin-top: 50px;
+    margin-top: 140px;
   }
 
   /* banner section */
@@ -143,7 +144,7 @@
 .left-title{
    font-size: 38px; 
 }
-.left-description, .right-description, .description{
+.left-description, .right-description, .description, .portfolio-description{
     font-size: 16px;
     color: rgba(7, 2, 17, 0.60);
 }
@@ -177,7 +178,93 @@
   background-image: url("/images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 180px;
  }
- .img-1{
-  
- }
+ /* .img-1 img{
+   width: 60%;
+ } */
+ /* .img-2{
+   width: 200px;
+ } */
+  /* portfolio styles */
+.portfolio-greetings{
+  font-size: 18px;
+  color: #FF0000;
+}
+.portfolio-title{
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.img-boxs{
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+.img-section{
+  margin-top: 50px;
+}
+.img-box{
+  max-width: 400px;
+  border-radius: 16px;
+}
+.img-box img{
+  width: 100%;
+}
+/* newsletter style */
+.newsletter{
+  background-color:#fff2f2 ;
+}
+.newsletter-title{
+  font-size: 48px;
+  /* margin-bottom: 0; */
+}
+form{
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin-top: 50px;
+}
+input[type="email"]{
+  height: 50px;
+  padding: 0px 120px 0px 30px;
+  /* text-align: left; */
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+.form-btn{
+  background-color: #FF0000;
+  height: 50px;
+  padding: 0 30px 0 30px;
+  border-radius: 0px 50px 50px 0px;
+}
+/* footer style */
+footer{
+  margin-top: 150px;
+  background-color: black;
+  padding: 120px 140px;
+}
+.footer-content-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer-add, .contact-text{
+  color: white;
+  font-size: 20px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+/* .contact-txt{
+  display: flex;
+}
+.contact-txt img{
+  width: 20%;
+} */
