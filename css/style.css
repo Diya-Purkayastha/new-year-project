@@ -1,0 +1,157 @@
+
+/* font */
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  /* shared style */
+  .btn{
+    background-color: transparent;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  /* main style */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  main section{
+    margin-top: 50px;
+  }
+
+  /* banner section */
+  .banner{
+    border-radius: 16px;
+    padding: 50px 140px;
+    background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* max-width: 1320px; */
+    height: 600px;
+    
+  }
+ 
+  .banner-greetings{
+        font-size: 32px;
+        color: white;
+        font-weight: 200;
+        text-align: center;
+  }
+  .banner-title{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    line-height: 95px;
+  }
+  /* 65-off section */
+  .category{
+    text-align: center;
+  }
+  .category-title{
+      font-size: 68px;
+      color: #FF0000;
+  }
+  .category-description{
+    font-size: 20px;
+    color: #FF0000;
+    margin-bottom: 0;
+  }
+  .all-category{
+    font-size: 38px;
+    
+  }
+
+  /* welcome-party section */
+  .welcome-party{
+    border-radius: 16px;
+    padding: 50px 140px;
+    background: linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 600px; */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .welcome-party-title{
+        font-size: 64px;
+        color: white;
+        margin-bottom: 0px;
+  }
+  
+  .welcome-party-description{
+        /* margin-top: 0px; */
+        font-size: 18px;
+        color: white;
+  }
+  .welcome-party-img img{
+    /* width: 100%; */
+    padding: 30px 0px;
+  }
+
+  /* schedule style */
+  .schedule{
+    border-radius: 16px;
+    padding: 50px 140px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    /* max-width: 1320px; */
+    height: 480px;
+    text-align: center;
+  }
+  .schedule-text{
+    font-size: 32px;
+
+  }
+ .schedule-span{
+    color: #FF0000;
+ }
+ .schedule-btn{
+    background-color: #FF0000;
+    padding: 20px 30px;
+ }
+ /* coming soon style */
+
+.coming-soon{
+    display: flex;
+    gap:30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-greetings, .right-title{
+    font-size: 20px;
+    color: #FF0000;
+}
+.left-title{
+   font-size: 38px; 
+}
+.left-description, .right-description{
+    font-size: 16px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.coming-soon-center{
+    border-radius: 50%;
+    border: 15px solid #FF0000;
+    margin-left: 0px;
+}
+.coming-soon-center img{
+    padding: 40px 40px;
+}
