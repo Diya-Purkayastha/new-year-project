@@ -40,7 +40,7 @@
   .banner{
     border-radius: 16px;
     padding: 50px 140px;
-    background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,7 +83,7 @@
   .welcome-party{
     border-radius: 16px;
     padding: 50px 140px;
-    background: linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
+    background: linear-gradient(90deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,7 +175,7 @@
     color: #FF0000;
   }
  .img-div{
-  background-image: url("/images/Rectangle\ 2.png");
+  background-image: url("../images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
